@@ -14,7 +14,7 @@ public class DataGenerator {
 
     public static JSONObject getRandomUserValue(){
         Faker faker = new Faker();
-        String persona = faker.name() + "@groove.co";
+        String persona = faker.name() + "@gmail.co";
         String type = faker.cat().breed();
         String source = faker.gameOfThrones().city();
         String due_at = faker.business().creditCardExpiry();
